@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "devDependencies": {
+    "next": "13.0.4"
+  },
   "dependencies": {
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
