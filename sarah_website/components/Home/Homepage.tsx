@@ -1,22 +1,19 @@
-import React from "react";
-
+"use client";
 // Pages
 import Header from "../Header/Header";
-
+import Carrousel from "../Carrousel/Carrousel";
 // Style
 import Wrapper, { Title, WrapperContent } from "./Homepage.style";
 
-const Homepage = () => {
+export default function Homepage() {
   return (
     <>
       <Wrapper>
-        <Header />
         <WrapperContent>
-          <Title>Homepage</Title>
+          <Header />
+          <Carrousel />
         </WrapperContent>
       </Wrapper>
     </>
   );
-};
-
-export default Homepage;
+}
