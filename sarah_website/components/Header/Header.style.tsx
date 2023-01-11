@@ -8,6 +8,7 @@ const WrapperHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   font-size: 1.1em;
+  z-index: 2;
 `;
 
 export const WrapperTitle = styled.div`
